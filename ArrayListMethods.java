@@ -12,7 +12,7 @@ public class ArrayListMethods {
 	public static void main(String[] args) {
 		ArrayList arraylist=new ArrayList<String>();
 		//Adding elements to array list
-		arraylist.add("Hi");
+		arraylist.add(2,"Hi");
 		arraylist.add("Welcome");
 		arraylist.add("to");
 		arraylist.add("ArrayList");
@@ -73,7 +73,7 @@ public class ArrayListMethods {
 		  System.out.println("Cloned arraylist after updation");
 		  printArrayList(arnewlist);
 	}
-	public static void printArrayList(ArrayList arrL)
+	public static void printArrayList(@SuppressWarnings("rawtypes") ArrayList arrL)
 	{
 		//printing arraylist using iterator()
 		@SuppressWarnings("rawtypes")

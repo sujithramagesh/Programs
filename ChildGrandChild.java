@@ -35,6 +35,7 @@ public class ChildGrandChild {
 		System.out.println("Enter the name whose grandchildren has to be found");
 		String fName=sc.next();
 		System.out.println(findNoOfChildren(fName, 0));
+		sc.close();
 	}
 	public static int findNoOfChildren(String fName,int count)
 	{

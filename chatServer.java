@@ -7,9 +7,9 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class chatServer {
+public class ChatServer {
 
-	public chatServer() {
+	public ChatServer() {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String[] args) throws IOException {

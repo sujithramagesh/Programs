@@ -3,9 +3,9 @@ package Programs;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bubblesort {
+public class Bubblesort {
 
-	public bubblesort() {
+	public Bubblesort() {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String[] args) {
@@ -31,6 +31,5 @@ public class bubblesort {
 		}
 		System.out.println(arrList.toString());	
 	}
-			
-}
+			sc.close();}
 }

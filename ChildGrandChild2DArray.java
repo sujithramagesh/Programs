@@ -2,8 +2,6 @@ package Programs;
 
 import java.util.Scanner;
 
-import Programs.ChildGrandChild.Family;
-
 public class ChildGrandChild2DArray {
 	static String[] nameArray;
 	public ChildGrandChild2DArray() {
@@ -25,6 +23,7 @@ public class ChildGrandChild2DArray {
 			System.out.println("Enter the name to find their number of grand children");
 			String fName=sc.next(); 
 			System.out.println(findNoOfChildren(fName, 0));
+			sc.close();
 			
 	}
 	public static int findNoOfChildren(String fName,int count)
